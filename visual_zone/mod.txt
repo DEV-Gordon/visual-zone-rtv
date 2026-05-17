@@ -1,0 +1,8 @@
+[mod]
+name="VisualZone"
+id="visual_zone"
+version="1.0.0"
+
+[autoload]
+VisualZoneMCM="res://Config.gd"
+VisualZone="res://Main.gd"
