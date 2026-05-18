@@ -25,12 +25,12 @@ var search_timer : float = 0.0
 const SEARCH_INTERVAL : float = 2.0
 
 const LUT_PATHS = {
-	"Zone":    "res://luts/zone.png",
-	"Pripyat": "res://luts/pripyat.png",
-	"Anomaly": "res://luts/anomaly.png",
-	"Tarkov":  "res://luts/tarkov.png",
-	"Woods":   "res://luts/woods.png",
-	"Reserve": "res://luts/reserve.png",
+	"Zone":    "res://visual_zone/luts/zone.png",
+	"Pripyat": "res://visual_zone/luts/pripyat.png",
+	"Anomaly": "res://visual_zone/luts/anomaly.png",
+	"Tarkov":  "res://visual_zone/luts/tarkov.png",
+	"Woods":   "res://visual_zone/luts/woods.png",
+	"Reserve": "res://visual_zone/luts/reserve.png",
 }
 
 func _ready():
@@ -62,7 +62,7 @@ func _init_post_process():
 	add_child(spatial_rig)
 
 	tonemap_mat = ShaderMaterial.new()
-	var tm_shader = load("res://Shaders/tonemap_lut.gdshader")
+	var tm_shader = load("res://visual_zone/Shaders/tonemap_lut.gdshader")
 	if tm_shader:
 		tonemap_mat.shader = tm_shader
 		tm_mesh = _create_quad(tonemap_mat, -8)

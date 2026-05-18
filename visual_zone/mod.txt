@@ -4,5 +4,5 @@ id="visual_zone"
 version="1.0.0"
 
 [autoload]
-VisualZoneMCM="res://Config.gd"
-VisualZone="res://Main.gd"
+VisualZoneMCM="res://visual_zone/Config.gd"
+VisualZone="res://visual_zone/Main.gd"
