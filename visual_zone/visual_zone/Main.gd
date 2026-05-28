@@ -7,7 +7,7 @@ const FILE_PATH = "user://MCM/visual_zone/config.ini"
 const DEF_LUT        = "Default"
 const DEF_LUT_INT    = 0.85
 const DEF_EXPOSURE   = 0.8
-const DEF_CONTRAST   = 1.0
+const DEF_CONTRAST   = 0.85
 const DEF_SATURATION = 1.25
 
 var current_lut        : String = DEF_LUT

@@ -6,3 +6,6 @@ version="1.0.0"
 [autoload]
 VisualZoneMCM="res://visual_zone/Config.gd"
 VisualZone="res://visual_zone/Main.gd"
+
+[updates]
+modworkshop=56878

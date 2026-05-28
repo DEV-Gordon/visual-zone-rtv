@@ -39,14 +39,14 @@ func _ready():
 		"default"  = 0.8,
 		"value"    = 0.8,
 		"minRange" = 0.0,
-		"maxRange" = 3.0
+		"maxRange" = 2.0
 	})
 
 	_config.set_value("Float", "contrast", {
 		"name"     = "Contrast",
 		"tooltip"  = "Difference between bright and dark areas",
-		"default"  = 1.0,
-		"value"    = 1.0,
+		"default"  = 0.85,
+		"value"    = 0.85,
 		"minRange" = 0.5,
 		"maxRange" = 2.0
 	})
